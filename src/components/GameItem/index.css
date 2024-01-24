@@ -1,0 +1,33 @@
+.game-container {
+  width: 30%;
+  max-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.gaming-router-link-style {
+  text-decoration: none;
+  outline: none;
+}
+.gaming-title-dark {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.game-image {
+  width: 100%;
+}
+.game-title {
+  color: #1e293b;
+  margin-bottom: 0;
+}
+.game-views-text {
+  color: #909090;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.game-views-text-dark {
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: 5px;
+}

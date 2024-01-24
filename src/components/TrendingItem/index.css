@@ -1,0 +1,24 @@
+.trending-item-container {
+  width: 100%;
+  list-style-type: none;
+  padding: 8px;
+}
+.trending-thumbnail {
+  width: 40%;
+}
+.trending-video-link-style {
+  width: 100%;
+  text-decoration: none;
+  outline: none;
+  color: rgb(0, 1, 17);
+  display: flex;
+}
+.trending-video-link-style-dark {
+  color: #ffffff;
+}
+.trending-views-publish {
+  display: flex;
+}
+.trending-view-count {
+  margin-right: 5px;
+}

@@ -1,0 +1,8 @@
+.main-body-container {
+  display: flex;
+  width: 100vw;
+  max-height: 100vh;
+}
+::-webkit-scrollbar {
+  display: none;
+}

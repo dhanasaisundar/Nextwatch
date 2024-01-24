@@ -1,0 +1,238 @@
+.video-body-container {
+  width: 75%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+.video-body-container-dark {
+  background-color: #231f20;
+}
+.videos-container {
+  width: 100%;
+  height: 95vh;
+  background-color: #f4f4f4;
+  padding: 15px;
+  overflow-y: scroll;
+}
+
+.videos-container::-webkit-scrollbar {
+  display: block;
+  width: 12px; /* Set the width of the scrollbar */
+}
+
+/* Handle */
+.videos-container::-webkit-scrollbar-thumb {
+  background-color: rgb(176, 176, 176); /* Color of the scrollbar handle */
+  border-radius: 6px; /* Rounded corners for the handle */
+}
+
+/* Handle on hover */
+.videos-container::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(
+    117,
+    117,
+    117
+  ); /* Color of the scrollbar handle on hover */
+}
+
+.videos-container-dark {
+  width: 100%;
+  height: 90vh;
+  background-color: #231f20;
+  color: #ffffff;
+  padding: 15px;
+  overflow-y: scroll;
+}
+
+.videos-container-dark::-webkit-scrollbar {
+  display: block;
+  width: 12px; /* Set the width of the scrollbar */
+}
+
+/* Handle */
+.videos-container-dark::-webkit-scrollbar-thumb {
+  background-color: rgb(176, 176, 176); /* Color of the scrollbar handle */
+  border-radius: 6px; /* Rounded corners for the handle */
+}
+
+/* Handle on hover */
+.videos-container-dark::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(
+    117,
+    117,
+    117
+  ); /* Color of the scrollbar handle on hover */
+}
+
+.search-container {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+}
+
+.search-input-element {
+  width: 90%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.search-btn {
+  width: 20%;
+  height: 100%;
+  background-color: #cccccc;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: none;
+  cursor: pointer;
+}
+.search-icon {
+  font-size: 20px;
+}
+/***********************************************************************/
+.loader-container {
+  width: 75%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader-container-dark {
+  width: 75%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #231f20;
+}
+/* ******************************************************************** */
+.failure-container-light {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-container-dark {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e2d2d;
+}
+.failure-image {
+  width: 40%;
+  margin-top: 8px;
+}
+.oops-text-light {
+  color: #00306e;
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.oops-text-dark {
+  color: #ffffff;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.retry-btn {
+  color: #ffffff;
+  background-color: #9902de;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-weight: bold;
+  border: none;
+  margin-top: 7px;
+}
+/***********************************************************************/
+.video-list-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+/************************************************************************/
+.empty-list-dark {
+  background-color: #231f20;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.empty-list-light {
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 10px;
+  align-items: center;
+}
+.no-search-image {
+  width: 45%;
+}
+.no-search-text-dark {
+  color: #ffffff;
+}
+.no-search-text-light {
+  color: #00306e;
+  font-weight: 500;
+}
+.retry-btn {
+  background-color: #9902de;
+  color: #f4f4f4;
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+/* ************************************************************************** */
+.banner-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 12px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png ');
+  background-size: cover;
+}
+.banner-website-logo {
+  width: 30%;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+.banner-description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.banner-get-it-now-btn {
+  width: 30%;
+  padding: 10px;
+  border: 2px solid #231f20;
+  background: none;
+  font-weight: 600;
+  margin-top: 13px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.banner-text {
+  font-family: 'Roboto';
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+.banner-close-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+/* ************************************************************************** */

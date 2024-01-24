@@ -1,0 +1,18 @@
+.sv-link-container {
+  margin-bottom: 10px;
+}
+.saved-video-link-style {
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+}
+.saved-video-thumbnail {
+  width: 70%x;
+  height: 200px;
+  margin-right: 10px;
+}
+.saved-views-count-dark {
+  color: #ffffff;
+}

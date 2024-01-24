@@ -1,0 +1,77 @@
+.login-main-bg {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+/********************************************************************** */
+.dark-bg-login-main-bg {
+  background-color: #1e293b;
+}
+/* ******************************************************************** */
+
+.login-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 30px;
+}
+@media screen and (max-width: 992px) {
+  .login-container {
+    width: 350px;
+    flex-shrink: 0;
+  }
+}
+.login-container:hover {
+  box-shadow: 0px 4px 16px 0px #a0a0a0;
+}
+
+/* ******************************************************************* */
+.dark-bg-login-container {
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+/* ******************************************************************* */
+
+.website-logo {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-label-element {
+  font-weight: 600;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+.login-input-element {
+  padding: 8px;
+  border: 1px solid #475569;
+}
+.show-password-container {
+  margin-top: 15px;
+}
+.show-pass-label {
+  font-weight: 600;
+  margin-left: 8px;
+}
+.log-in-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/***********************************************************************/
+.error-msg {
+  color: #ff0000;
+  font-weight: bold;
+}
